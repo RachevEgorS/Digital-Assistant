@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, Button, SafeAreaView, TouchableOpacity } from '
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-// Define screen
+// Define screens
 const HomeScreen = ({ navigation }) => (
   <SafeAreaView style={styles.container}>
     <Text style={styles.title}>Цифровой помошник</Text>
